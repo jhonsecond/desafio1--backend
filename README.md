@@ -1,9 +1,4 @@
-# Shopping-Cart
-Es un carrito de compras hecho con ReactJS para el curso de Coderhouse
-# Que utilicé:
-
-primer desafio de backend para el curso de Coderhouse
-
+Primer desafio de backend para el curso de Coderhouse
 
 # Funcionalidades:
 
