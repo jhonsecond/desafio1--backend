@@ -13,6 +13,3 @@ Primer desafio de backend para el curso de Coderhouse
 5-Luego, se busca un producto con ID 1 mediante el método getProductById(1), y se muestra el producto encontrado.
 
 6-Finalmente, se busca un producto con ID 2 mediante el método getProductById(2), pero como no hay un producto con ese ID, se muestra el mensaje de error (Error: Producto no encontrado.).
-
-
-asd 
