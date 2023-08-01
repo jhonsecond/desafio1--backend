@@ -2,20 +2,22 @@
 Es un carrito de compras hecho con ReactJS para el curso de Coderhouse
 # Que utilicé:
 
-* React
-* React Hooks
-* Libraries (Styled-Components, Reactstrap, React-Icons, React Router)
-* HTML5/CSS3
-* Javascript
-* Firebase/Firestore Database (Para cargar los productos a la app y almacenar las órdenes, imágenes)
-* Zapier (Integación con Firestore para enviar un mail automaticamente luego de completar el checkout)
+primer desafio de backend para el curso de Coderhouse
+
 
 # Funcionalidades:
 
-* Navegar por el home y ver todos los productos
-* Ingresar al detalle de cada producto.
-* Agregar y quitar productos al carrito.
-* Ingresar al carrito para ver el total de items y eliminar items.
-* Completar el checkout para recibir el código de la compra por e-mail (Para esta demo el checlout es un simple form).
-* Para esta versión no se utilizó local storage por lo tanto el carrito no es persistente.
-* Para esta versión falta la optimización para ser 100% responsive.
+1-Al inicio, se muestra que el arreglo de productos está vacío (Productos iniciales: []).
+
+2-Luego, se agrega un producto satisfactoriamente, y se muestra el arreglo de productos con el producto agregado (Productos después de agregar el producto: [...]).
+
+3-Después, se intenta agregar un producto con el mismo código, lo que resulta en un mensaje de error (Error: El código de producto ya existe.).
+
+4-El arreglo de productos sigue mostrando el mismo producto, ya que el segundo intento de agregar un producto repetido no se realizó debido al código duplicado.
+
+5-Luego, se busca un producto con ID 1 mediante el método getProductById(1), y se muestra el producto encontrado.
+
+6-Finalmente, se busca un producto con ID 2 mediante el método getProductById(2), pero como no hay un producto con ese ID, se muestra el mensaje de error (Error: Producto no encontrado.).
+
+
+asd 
